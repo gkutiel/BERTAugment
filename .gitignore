@@ -1,0 +1,12 @@
+__pycache__/
+.mypy_cache/
+
+dist/
+build/
+*.egg-info/
+
+.doit.db
+
+.vscode/
+
+points.json
