@@ -3,7 +3,7 @@ from bert_augment import version
 
 pys = list(Path('.').rglob('*.py'))
 mds = list(Path('.').rglob('*.md'))
-sdist = Path('dist') / f'plmbr-{version}.tar.gz'
+sdist = Path('dist') / f'bert_augment-{version}.tar.gz'
 
 
 def task_test():

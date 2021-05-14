@@ -12,11 +12,17 @@ setuptools.setup(
     description="BERT based text augmentation",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url="TODO",
+    url="https://github.com/gkutiel/BERTAugment",
     packages=setuptools.find_packages(),
     python_requires='>=3.7',
     install_requires=[
         'torch',
         'transformers',
-        'nltk']
+        'nltk',
+        'fire'],
+    entry_points={
+        'console_scripts': [
+            'bertaugment = bert_augment:main'
+        ]
+    }
 )
